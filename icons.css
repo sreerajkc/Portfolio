@@ -1,0 +1,26 @@
+.main2
+{
+    display: block;
+    place-items: center;
+}
+.social{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    cursor: pointer;
+    position: relative;
+    margin-top: 2.5%;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property:transform;
+    transition-property:transform;
+    transform: scale(.5);
+
+}
+.icons:hover{
+    -webkit-transform: scale(.7);
+   transform: scale(.7);
+}
