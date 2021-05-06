@@ -75,7 +75,7 @@ section .cc{
     text-align: left;
 }
 .info p{
-
+    visibility: hidden;
     font-size: 8em;
     color: white;
     position: relative;
@@ -97,9 +97,12 @@ section .cc{
 @keyframes move
 {
     0%{
+        visibility: visible;
         left: -100%;
     }
-    100%{
+    100%
+    {
+        visibility: visible;
         left: 0%;
     }
 }
@@ -143,9 +146,7 @@ section .cc{
 }
 @media (max-width: 1000px)
 {
-    .screen img{
-        height: 75% !important;
-    }
+
     .desc div{
         margin-top: .5%!important;
     }
@@ -265,9 +266,6 @@ section .cc{
 }
 @media (max-height: 850px)
 {
-    .screen img{
-        height: 75% !important;
-    }
     .desc div{
         margin-top: .5%!important;
     }
