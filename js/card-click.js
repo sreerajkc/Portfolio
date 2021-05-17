@@ -8,6 +8,7 @@ $(document).ready(function(){
       {
         case "1":descId="#Holes";break;
         case "2":descId="#UP";break;
+        case "3":descId="#JLP";break;
       }
       $(descId).css("z-index",1);
       $(descId).animate({
